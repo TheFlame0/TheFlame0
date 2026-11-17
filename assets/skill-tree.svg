@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 604" width="1000" height="604" role="img" aria-labelledby="t d">
+<title id="t">Skills</title><desc id="d">Five groups of skills: product, UX and UI design, accessibility, languages and frameworks, data and tools.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0E1630"/><stop offset="1" stop-color="#0A0F1E"/></linearGradient>
+<linearGradient id="bt" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6CB6FF"/><stop offset="1" stop-color="#56D4C5"/></linearGradient>
+<radialGradient id="gb"><stop offset="0" stop-color="#6CB6FF" stop-opacity=".22"/><stop offset="1" stop-color="#6CB6FF" stop-opacity="0"/></radialGradient>
+<radialGradient id="gt"><stop offset="0" stop-color="#56D4C5" stop-opacity=".16"/><stop offset="1" stop-color="#56D4C5" stop-opacity="0"/></radialGradient>
+<radialGradient id="ga"><stop offset="0" stop-color="#F6B24A" stop-opacity=".14"/><stop offset="1" stop-color="#F6B24A" stop-opacity="0"/></radialGradient>
+<radialGradient id="gv"><stop offset="0" stop-color="#B9A1FF" stop-opacity=".16"/><stop offset="1" stop-color="#B9A1FF" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#2E3F70" opacity=".6"/></pattern>
+<clipPath id="clip"><rect width="1000" height="604" rx="18"/></clipPath>
+</defs>
+<style>
+.s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}.m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+.flow{stroke-dasharray:3 9;animation:flow 2.6s linear infinite}
+.flow2{stroke-dasharray:2 7;animation:flow 3.4s linear infinite reverse}
+@keyframes flow{to{stroke-dashoffset:-24}}
+.blink{animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.pulse{animation:pulse 3.2s ease-in-out infinite}
+.pulse.b{animation-delay:.8s}.pulse.c{animation-delay:1.6s}.pulse.d{animation-delay:2.4s}
+@keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes spinr{to{transform:rotate(-360deg)}}
+@keyframes scan{0%{transform:translateX(0)}100%{transform:translateX(var(--d,300px))}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#clip)"><rect width="1000" height="604" fill="url(#bg)"/><rect width="1000" height="604" fill="url(#dots)"/><circle cx="120" cy="302" r="240" fill="url(#gb)"/><circle cx="880" cy="520" r="280" fill="url(#gv)"/>
+<path d="M154 302 C 250 302, 270 70, 374 70" fill="none" stroke="#2C3F6E" stroke-width="1.5"/><path class="flow" d="M154 302 C 250 302, 270 70, 374 70" fill="none" stroke="#6CB6FF" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="400.0,46.0 420.8,58.0 420.8,82.0 400.0,94.0 379.2,82.0 379.2,58.0" fill="#6CB6FF" fill-opacity=".12" stroke="#6CB6FF" stroke-width="1.5"/>
+<circle class="pulse " cx="400" cy="70" r="5" fill="#6CB6FF"/>
+<text class="m" x="400" y="36" font-size="13.5" font-weight="700" letter-spacing="1.5" fill="#6CB6FF" text-anchor="middle">PRODUCT</text>
+<path class="flow2" d="M426 70 C 520 70, 540 31, 630 31" fill="none" stroke="#6CB6FF" stroke-opacity=".55" stroke-linecap="round"/>
+<circle cx="640" cy="31" r="6" fill="#0A0F1E" stroke="#6CB6FF" stroke-width="1.5"/><circle cx="640" cy="31" r="2" fill="#6CB6FF"/>
+<text class="m" x="658" y="36" font-size="15" fill="#E8EEF9">Product management</text>
+<path class="flow2" d="M426 70 C 520 70, 540 57, 630 57" fill="none" stroke="#6CB6FF" stroke-opacity=".55" stroke-linecap="round"/>
+<circle cx="640" cy="57" r="6" fill="#0A0F1E" stroke="#6CB6FF" stroke-width="1.5"/><circle cx="640" cy="57" r="2" fill="#6CB6FF"/>
+<text class="m" x="658" y="62" font-size="15" fill="#E8EEF9">Prioritization (impact and effort)</text>
+<path class="flow2" d="M426 70 C 520 70, 540 83, 630 83" fill="none" stroke="#6CB6FF" stroke-opacity=".55" stroke-linecap="round"/>
+<circle cx="640" cy="83" r="6" fill="#0A0F1E" stroke="#6CB6FF" stroke-width="1.5"/><circle cx="640" cy="83" r="2" fill="#6CB6FF"/>
+<text class="m" x="658" y="88" font-size="15" fill="#E8EEF9">Product metrics (NPS, retention)</text>
+<path class="flow2" d="M426 70 C 520 70, 540 109, 630 109" fill="none" stroke="#6CB6FF" stroke-opacity=".55" stroke-linecap="round"/>
+<circle cx="640" cy="109" r="6" fill="#0A0F1E" stroke="#6CB6FF" stroke-width="1.5"/><circle cx="640" cy="109" r="2" fill="#6CB6FF"/>
+<text class="m" x="658" y="114" font-size="15" fill="#E8EEF9">Competitor analysis</text>
+<path d="M154 302 C 250 302, 270 186, 374 186" fill="none" stroke="#2C3F6E" stroke-width="1.5"/><path class="flow" d="M154 302 C 250 302, 270 186, 374 186" fill="none" stroke="#56D4C5" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="400.0,162.0 420.8,174.0 420.8,198.0 400.0,210.0 379.2,198.0 379.2,174.0" fill="#56D4C5" fill-opacity=".12" stroke="#56D4C5" stroke-width="1.5"/>
+<circle class="pulse b" cx="400" cy="186" r="5" fill="#56D4C5"/>
+<text class="m" x="400" y="152" font-size="13.5" font-weight="700" letter-spacing="1.5" fill="#56D4C5" text-anchor="middle">UX / UI DESIGN</text>
+<path class="flow2" d="M426 186 C 520 186, 540 147, 630 147" fill="none" stroke="#56D4C5" stroke-opacity=".55" stroke-linecap="round"/>
+<circle cx="640" cy="147" r="6" fill="#0A0F1E" stroke="#56D4C5" stroke-width="1.5"/><circle cx="640" cy="147" r="2" fill="#56D4C5"/>
+<text class="m" x="658" y="152" font-size="15" fill="#E8EEF9">Usability testing</text>
+<path class="flow2" d="M426 186 C 520 186, 540 173, 630 173" fill="none" stroke="#56D4C5" stroke-opacity=".55" stroke-linecap="round"/>
+<circle cx="640" cy="173" r="6" fill="#0A0F1E" stroke="#56D4C5" stroke-width="1.5"/><circle cx="640" cy="173" r="2" fill="#56D4C5"/>
+<text class="m" x="658" y="178" font-size="15" fill="#E8EEF9">User interviews</text>
+<path class="flow2" d="M426 186 C 520 186, 540 199, 630 199" fill="none" stroke="#56D4C5" stroke-opacity=".55" stroke-linecap="round"/>
+<circle cx="640" cy="199" r="6" fill="#0A0F1E" stroke="#56D4C5" stroke-width="1.5"/><circle cx="640" cy="199" r="2" fill="#56D4C5"/>
+<text class="m" x="658" y="204" font-size="15" fill="#E8EEF9">Design sprints</text>
+<path class="flow2" d="M426 186 C 520 186, 540 225, 630 225" fill="none" stroke="#56D4C5" stroke-opacity=".55" stroke-linecap="round"/>
+<circle cx="640" cy="225" r="6" fill="#0A0F1E" stroke="#56D4C5" stroke-width="1.5"/><circle cx="640" cy="225" r="2" fill="#56D4C5"/>
+<text class="m" x="658" y="230" font-size="15" fill="#E8EEF9">Figma: wireframes to prototypes</text>
+<path d="M154 302 C 250 302, 270 302, 374 302" fill="none" stroke="#2C3F6E" stroke-width="1.5"/><path class="flow" d="M154 302 C 250 302, 270 302, 374 302" fill="none" stroke="#F6B24A" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="400.0,278.0 420.8,290.0 420.8,314.0 400.0,326.0 379.2,314.0 379.2,290.0" fill="#F6B24A" fill-opacity=".12" stroke="#F6B24A" stroke-width="1.5"/>
+<circle class="pulse c" cx="400" cy="302" r="5" fill="#F6B24A"/>
+<text class="m" x="400" y="268" font-size="13.5" font-weight="700" letter-spacing="1.5" fill="#F6B24A" text-anchor="middle">ACCESSIBILITY</text>
+<path class="flow2" d="M426 302 C 520 302, 540 263, 630 263" fill="none" stroke="#F6B24A" stroke-opacity=".55" stroke-linecap="round"/>
+<circle cx="640" cy="263" r="6" fill="#0A0F1E" stroke="#F6B24A" stroke-width="1.5"/><circle cx="640" cy="263" r="2" fill="#F6B24A"/>
+<text class="m" x="658" y="268" font-size="15" fill="#E8EEF9">WCAG 2.1 AA audits</text>
+<path class="flow2" d="M426 302 C 520 302, 540 289, 630 289" fill="none" stroke="#F6B24A" stroke-opacity=".55" stroke-linecap="round"/>
+<circle cx="640" cy="289" r="6" fill="#0A0F1E" stroke="#F6B24A" stroke-width="1.5"/><circle cx="640" cy="289" r="2" fill="#F6B24A"/>
+<text class="m" x="658" y="294" font-size="15" fill="#E8EEF9">Screen reader testing (VoiceOver)</text>
+<path class="flow2" d="M426 302 C 520 302, 540 315, 630 315" fill="none" stroke="#F6B24A" stroke-opacity=".55" stroke-linecap="round"/>
+<circle cx="640" cy="315" r="6" fill="#0A0F1E" stroke="#F6B24A" stroke-width="1.5"/><circle cx="640" cy="315" r="2" fill="#F6B24A"/>
+<text class="m" x="658" y="320" font-size="15" fill="#E8EEF9">Contrast and keyboard checks</text>
+<path class="flow2" d="M426 302 C 520 302, 540 341, 630 341" fill="none" stroke="#F6B24A" stroke-opacity=".55" stroke-linecap="round"/>
+<circle cx="640" cy="341" r="6" fill="#0A0F1E" stroke="#F6B24A" stroke-width="1.5"/><circle cx="640" cy="341" r="2" fill="#F6B24A"/>
+<text class="m" x="658" y="346" font-size="15" fill="#E8EEF9">Heuristic evaluation</text>
+<path d="M154 302 C 250 302, 270 418, 374 418" fill="none" stroke="#2C3F6E" stroke-width="1.5"/><path class="flow" d="M154 302 C 250 302, 270 418, 374 418" fill="none" stroke="#4ADE9A" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="400.0,394.0 420.8,406.0 420.8,430.0 400.0,442.0 379.2,430.0 379.2,406.0" fill="#4ADE9A" fill-opacity=".12" stroke="#4ADE9A" stroke-width="1.5"/>
+<circle class="pulse d" cx="400" cy="418" r="5" fill="#4ADE9A"/>
+<text class="m" x="400" y="384" font-size="13.5" font-weight="700" letter-spacing="1.5" fill="#4ADE9A" text-anchor="middle">LANGUAGES &amp; FRAMEWORKS</text>
+<path class="flow2" d="M426 418 C 520 418, 540 379, 630 379" fill="none" stroke="#4ADE9A" stroke-opacity=".55" stroke-linecap="round"/>
+<circle cx="640" cy="379" r="6" fill="#0A0F1E" stroke="#4ADE9A" stroke-width="1.5"/><circle cx="640" cy="379" r="2" fill="#4ADE9A"/>
+<text class="m" x="658" y="384" font-size="15" fill="#E8EEF9">JavaScript · TypeScript</text>
+<path class="flow2" d="M426 418 C 520 418, 540 405, 630 405" fill="none" stroke="#4ADE9A" stroke-opacity=".55" stroke-linecap="round"/>
+<circle cx="640" cy="405" r="6" fill="#0A0F1E" stroke="#4ADE9A" stroke-width="1.5"/><circle cx="640" cy="405" r="2" fill="#4ADE9A"/>
+<text class="m" x="658" y="410" font-size="15" fill="#E8EEF9">Python · Java · Dart</text>
+<path class="flow2" d="M426 418 C 520 418, 540 431, 630 431" fill="none" stroke="#4ADE9A" stroke-opacity=".55" stroke-linecap="round"/>
+<circle cx="640" cy="431" r="6" fill="#0A0F1E" stroke="#4ADE9A" stroke-width="1.5"/><circle cx="640" cy="431" r="2" fill="#4ADE9A"/>
+<text class="m" x="658" y="436" font-size="15" fill="#E8EEF9">React · Next.js · React Native</text>
+<path class="flow2" d="M426 418 C 520 418, 540 457, 630 457" fill="none" stroke="#4ADE9A" stroke-opacity=".55" stroke-linecap="round"/>
+<circle cx="640" cy="457" r="6" fill="#0A0F1E" stroke="#4ADE9A" stroke-width="1.5"/><circle cx="640" cy="457" r="2" fill="#4ADE9A"/>
+<text class="m" x="658" y="462" font-size="15" fill="#E8EEF9">Flutter · Node.js · HTML/CSS</text>
+<path d="M154 302 C 250 302, 270 534, 374 534" fill="none" stroke="#2C3F6E" stroke-width="1.5"/><path class="flow" d="M154 302 C 250 302, 270 534, 374 534" fill="none" stroke="#B9A1FF" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="400.0,510.0 420.8,522.0 420.8,546.0 400.0,558.0 379.2,546.0 379.2,522.0" fill="#B9A1FF" fill-opacity=".12" stroke="#B9A1FF" stroke-width="1.5"/>
+<circle class="pulse " cx="400" cy="534" r="5" fill="#B9A1FF"/>
+<text class="m" x="400" y="500" font-size="13.5" font-weight="700" letter-spacing="1.5" fill="#B9A1FF" text-anchor="middle">DATA &amp; TOOLS</text>
+<path class="flow2" d="M426 534 C 520 534, 540 495, 630 495" fill="none" stroke="#B9A1FF" stroke-opacity=".55" stroke-linecap="round"/>
+<circle cx="640" cy="495" r="6" fill="#0A0F1E" stroke="#B9A1FF" stroke-width="1.5"/><circle cx="640" cy="495" r="2" fill="#B9A1FF"/>
+<text class="m" x="658" y="500" font-size="15" fill="#E8EEF9">RapidMiner</text>
+<path class="flow2" d="M426 534 C 520 534, 540 521, 630 521" fill="none" stroke="#B9A1FF" stroke-opacity=".55" stroke-linecap="round"/>
+<circle cx="640" cy="521" r="6" fill="#0A0F1E" stroke="#B9A1FF" stroke-width="1.5"/><circle cx="640" cy="521" r="2" fill="#B9A1FF"/>
+<text class="m" x="658" y="526" font-size="15" fill="#E8EEF9">Git · GitHub</text>
+<path class="flow2" d="M426 534 C 520 534, 540 547, 630 547" fill="none" stroke="#B9A1FF" stroke-opacity=".55" stroke-linecap="round"/>
+<circle cx="640" cy="547" r="6" fill="#0A0F1E" stroke="#B9A1FF" stroke-width="1.5"/><circle cx="640" cy="547" r="2" fill="#B9A1FF"/>
+<text class="m" x="658" y="552" font-size="15" fill="#E8EEF9">Supabase · Firebase</text>
+<path class="flow2" d="M426 534 C 520 534, 540 573, 630 573" fill="none" stroke="#B9A1FF" stroke-opacity=".55" stroke-linecap="round"/>
+<circle cx="640" cy="573" r="6" fill="#0A0F1E" stroke="#B9A1FF" stroke-width="1.5"/><circle cx="640" cy="573" r="2" fill="#B9A1FF"/>
+<text class="m" x="658" y="578" font-size="15" fill="#E8EEF9">Scrum · Kanban</text>
+<polygon points="120.0,266.0 151.2,284.0 151.2,320.0 120.0,338.0 88.8,320.0 88.8,284.0" fill="#6CB6FF" fill-opacity=".1" stroke="url(#bt)" stroke-width="2"/>
+<circle cx="120" cy="302" r="9" fill="none" stroke="#E8EEF9" stroke-width="2"/><circle cx="120" cy="302" r="3" fill="#56D4C5"/>
+<text class="m" x="120" y="252" font-size="13.5" font-weight="700" letter-spacing="2" fill="#B7C3D9" text-anchor="middle">SKILLS</text>
+</g>
+<rect x=".5" y=".5" width="999" height="603" rx="18" fill="none" stroke="#24335C"/>
+</svg>

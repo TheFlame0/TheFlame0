@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 404" width="520" height="404" role="img" aria-labelledby="t d">
+<title id="t">People first</title><desc id="d">A person at the centre, with five labels around: usability, product, research, accessibility, data.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0E1630"/><stop offset="1" stop-color="#0A0F1E"/></linearGradient>
+<linearGradient id="bt" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6CB6FF"/><stop offset="1" stop-color="#56D4C5"/></linearGradient>
+<radialGradient id="gb"><stop offset="0" stop-color="#6CB6FF" stop-opacity=".22"/><stop offset="1" stop-color="#6CB6FF" stop-opacity="0"/></radialGradient>
+<radialGradient id="gt"><stop offset="0" stop-color="#56D4C5" stop-opacity=".16"/><stop offset="1" stop-color="#56D4C5" stop-opacity="0"/></radialGradient>
+<radialGradient id="ga"><stop offset="0" stop-color="#F6B24A" stop-opacity=".14"/><stop offset="1" stop-color="#F6B24A" stop-opacity="0"/></radialGradient>
+<radialGradient id="gv"><stop offset="0" stop-color="#B9A1FF" stop-opacity=".16"/><stop offset="1" stop-color="#B9A1FF" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#2E3F70" opacity=".6"/></pattern>
+<clipPath id="clip"><rect width="520" height="404" rx="18"/></clipPath>
+</defs>
+<style>
+.s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}.m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+.flow{stroke-dasharray:3 9;animation:flow 2.6s linear infinite}
+.flow2{stroke-dasharray:2 7;animation:flow 3.4s linear infinite reverse}
+@keyframes flow{to{stroke-dashoffset:-24}}
+.blink{animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.pulse{animation:pulse 3.2s ease-in-out infinite}
+.pulse.b{animation-delay:.8s}.pulse.c{animation-delay:1.6s}.pulse.d{animation-delay:2.4s}
+@keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes spinr{to{transform:rotate(-360deg)}}
+@keyframes scan{0%{transform:translateX(0)}100%{transform:translateX(var(--d,300px))}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#clip)"><rect width="520" height="404" fill="url(#bg)"/><rect width="520" height="404" fill="url(#dots)"/><circle cx="260" cy="190" r="230" fill="url(#gt)"/>
+<circle cx="260" cy="190" r="126" fill="none" stroke="#33477A" stroke-dasharray="2 8"/>
+<circle cx="260" cy="190" r="84" fill="none" stroke="#2C3F6E"/>
+<circle class="flow2" cx="260" cy="190" r="84" fill="none" stroke="#56D4C5" stroke-opacity=".7" stroke-linecap="round"/>
+<g style="transform-origin:260px 190px;animation:spin 18s linear infinite"><circle cx="349" cy="100" r="4" fill="#fff" fill-opacity=".9"/></g>
+<g style="transform-origin:260px 190px;animation:spinr 11s linear infinite"><circle cx="201" cy="249" r="3.5" fill="#F6B24A"/></g>
+<circle cx="260" cy="190" r="62" fill="url(#gb)"/>
+<circle cx="260" cy="190" r="36" fill="url(#bt)"/>
+<circle cx="260" cy="181" r="9" fill="#0A0F1E"/>
+<path d="M241 212 c0-12 9-19 19-19 s19 7 19 19 z" fill="#0A0F1E"/>
+<circle cx="260.0" cy="64.0" r="4.5" fill="#56D4C5"/>
+<rect x="210.0" y="22.0" width="100" height="28" rx="14" fill="#56D4C5" fill-opacity=".09" stroke="#56D4C5" stroke-opacity=".85"/><text class="m" x="260.0" y="40.9" font-size="13" font-weight="700" fill="#56D4C5" text-anchor="middle">Usability</text>
+<circle cx="386.0" cy="190.0" r="4.5" fill="#F6B24A"/>
+<rect x="398.0" y="176.0" width="84" height="28" rx="14" fill="#F6B24A" fill-opacity=".09" stroke="#F6B24A" stroke-opacity=".85"/><text class="m" x="440.0" y="194.9" font-size="13" font-weight="700" fill="#F6B24A" text-anchor="middle">Product</text>
+<circle cx="134.0" cy="190.0" r="4.5" fill="#6CB6FF"/>
+<rect x="30.0" y="176.0" width="92" height="28" rx="14" fill="#6CB6FF" fill-opacity=".09" stroke="#6CB6FF" stroke-opacity=".85"/><text class="m" x="76.0" y="194.9" font-size="13" font-weight="700" fill="#6CB6FF" text-anchor="middle">Research</text>
+<circle cx="193.2" cy="296.9" r="4.5" fill="#FF8090"/>
+<rect x="126.7" y="309.9" width="133" height="28" rx="14" fill="#FF8090" fill-opacity=".09" stroke="#FF8090" stroke-opacity=".85"/><text class="m" x="193.2" y="328.7" font-size="13" font-weight="700" fill="#FF8090" text-anchor="middle">Accessibility</text>
+<circle cx="326.8" cy="296.9" r="4.5" fill="#B9A1FF"/>
+<rect x="297.3" y="309.9" width="59" height="28" rx="14" fill="#B9A1FF" fill-opacity=".09" stroke="#B9A1FF" stroke-opacity=".85"/><text class="m" x="326.8" y="328.7" font-size="13" font-weight="700" fill="#B9A1FF" text-anchor="middle">Data</text>
+<text class="m" x="260" y="384" font-size="13.5" fill="#8D9CB8" text-anchor="middle">// start with the person using it <tspan class="blink" fill="#56D4C5">▍</tspan></text>
+</g>
+<rect x=".5" y=".5" width="519" height="403" rx="18" fill="none" stroke="#24335C"/>
+</svg>
