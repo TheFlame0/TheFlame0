@@ -144,6 +144,25 @@ Team of 5, KFUPM Usability Engineering course, spring 2025. The idea started in 
 
 </td>
 </tr>
+
+<tr>
+<td width="44%" align="center" valign="middle">
+<img src="./assets/p-game.svg" width="350" alt="One host phone connected to four player phones. 67 screens checked, 221 differences logged, 10 color palettes in 3 directions." />
+</td>
+<td width="56%" valign="top">
+
+### 🎮 Game App: an Arabic party game, from market research to a tested app *(pre-launch)*
+
+An Arabic trivia party game that brings friends and families together to challenge each other at gatherings. One host opens a room, and everyone plays on their own phone.
+
+I ran the **market research**: a study of 5 competing apps (prices, ratings, reviews) that set the business model and pricing. I ran the **brand identity** work too: 3 directions and 10 color palettes explored, a final look picked, and a design system built as a prototype in Figma Make.
+
+I designed the app screens in Figma and ran a **design QA** pass on the app: 67 screens checked against the designs, 221 differences logged and the mismatches corrected, with button colors chosen by WCAG contrast tests. Then I tested with real players at a live game night and used their feedback to fix problems and improve the experience.
+
+![Figma](https://img.shields.io/badge/Figma-1E1E1E?style=flat&logo=figma&logoColor=white) ![Market research](https://img.shields.io/badge/Market_research-6E40C9?style=flat) ![Brand identity](https://img.shields.io/badge/Brand_identity-6E40C9?style=flat) ![Design system](https://img.shields.io/badge/Design_system-6E40C9?style=flat) ![Design QA](https://img.shields.io/badge/Design_QA-6E40C9?style=flat) ![WCAG contrast](https://img.shields.io/badge/WCAG_contrast-005A9C?style=flat&logo=w3c&logoColor=white)
+
+</td>
+</tr>
 </table>
 
 ---
